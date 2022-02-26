@@ -92,7 +92,7 @@ class PlayScene extends BaseScene {
 
   countDown() {
     this.initialTime--;
-    this.countDownText.setText(`fly in: ${this.initialTime}`);
+    this.countDownText.setText(`Fly in: ${this.initialTime}`);
     if (this.initialTime <= 0) {
       this.isPaused = false;
       this.countDownText.setText("");
